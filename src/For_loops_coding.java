@@ -12,10 +12,11 @@ public class For_loops_coding {
 		//* * * * * * *
 		//* * * * * * *
 		//
-		
-		for (int i = 0; i < 4; i ++) {
-			System.out.println("* * * * * * *");
-			
+		for (int j = 0; j < 4; j ++) {
+			for (int i = 0; i < 7; i ++) {
+			System.out.print("* ");
+			} 
+		System.out.print("\n");
 		}
 		
 		
